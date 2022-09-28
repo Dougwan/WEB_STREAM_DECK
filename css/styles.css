@@ -1,0 +1,16 @@
+:root {
+  --primary: #6f4a8e;
+  --secondary: #221f3b;
+  --background: #050505;
+  --light: #ebebeb;
+}
+
+body {
+  background: var(--background);
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
